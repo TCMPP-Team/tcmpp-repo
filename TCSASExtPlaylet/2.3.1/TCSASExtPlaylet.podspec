@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.public_header_files  = "TCSASExtPlaylet/Headers/*"
   s.requires_arc = true
   s.dependency 'TCMPPSDK'
+  s.dependency 'SDWebImage'
   s.resource = 'TUIDramaPlayer.xcframework/TUIDramaPlayer.bundle'
   s.vendored_frameworks   = "TCSASExtPlaylet.xcframework","TUIDramaPlayer.xcframework","TUIPlayerShortVideo.xcframework","TUIPlayerCore.xcframework"
 end
