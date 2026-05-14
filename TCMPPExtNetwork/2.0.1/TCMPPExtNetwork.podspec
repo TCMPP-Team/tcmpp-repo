@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.requires_arc = true
   s.dependency 'TCMPPSDK'
+  s.dependency 'CocoaAsyncSocket'
   s.vendored_frameworks   = "TCMPPExtNetwork.xcframework"
 
 end
