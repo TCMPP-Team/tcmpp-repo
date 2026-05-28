@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   }
   s.authors      = { "stonelshi" => "stonelshi@tencent.com" }
   s.homepage     = "https://git.code.oa.com/groot-components/TCSASExtPlaylet"
-  s.source       = { :http => 'https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/TCSASExtPlaylet/2.3.7/TCSASExtPlaylet_2.3.7.xcframework.zip' }
+  s.source       = { :http => 'https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/TCSASExtPlaylet/2.3.7/TCSASExtPlaylet_2.3.7.zip' }
   s.ios.deployment_target = "10.0"
   s.source_files = "TCSASExtPlaylet/Classes/**/*","TCSASExtPlaylet/Headers/*"
   s.public_header_files  = "TCSASExtPlaylet/Headers/*"
